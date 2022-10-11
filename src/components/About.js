@@ -37,7 +37,7 @@ const About = () => {
 
                 </div>
                 <div className='box-about'>
-                    <p>I studied systems engineering in 2016, I have created video games <span className='p-tech'>(Unity C#)</span> and development of web applications, mainly using <span className='p-tech'>MERN Stack (MongoDB, Express, React JS, Node JS)</span> also <span className='p-tech'>TypeScript</span> & <span className='p-tech'>Redux</span>.</p>
+                    <p>I have created video games <span className='p-tech'>(Unity C#)</span> and development of web applications, mainly using <span className='p-tech'>MERN Stack (MongoDB, Express, React JS, Node JS)</span> also <span className='p-tech'>TypeScript</span> & <span className='p-tech'>Redux</span>.</p>
                 </div>
             </Col>
             <Col xs={{ order: 'last' }} md={2} lg={2}></Col>
