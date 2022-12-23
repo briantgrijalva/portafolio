@@ -1,12 +1,11 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 // import img from '../assets/pcAboutOption2.jpg';
 import img from '../assets/briant.png';
 
 const About = () => {
     return ( 
-    <Container>
-        
+    <>
         <Row id='about'>
             <Col xs={6}>
                 <div className='name-div'>
@@ -43,7 +42,7 @@ const About = () => {
             <Col xs={{ order: 'last' }} md={2} lg={2}></Col>
         </Row>
 
-    </Container>
+    </>
      );
 }
  

@@ -8,17 +8,20 @@ import NavbarComponent from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { Footer } from './components/Footer';
+import { Container } from 'react-bootstrap';
 
 
 function App() {
   return (
     <main>
-      <NavbarComponent />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+        <NavbarComponent />
+        <Container>
+            <About />
+            <Skills />
+            <Projects />
+            <Contact />
+            <Footer />
+        </Container>
     </main>
   );
 }

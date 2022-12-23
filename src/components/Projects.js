@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
 import imgPomodoro from '../assets/imgPomodoro.png';
 import imgPrespuesto from '../assets/presupuesto.png';
@@ -12,8 +12,8 @@ import imgTodolist from '../assets/todolist-skill.png';
 
 const Projects = () => {
     return ( 
-        <Container id='projects'>
-            <Row>
+        <>
+            <Row id='projects'>
                 <Col xs={{ order: 'first' }} md={2} lg={4}></Col>
                 <Col xs md={8} lg={4}>
                     <h5 className='h5-project'>Projects</h5>
@@ -21,7 +21,7 @@ const Projects = () => {
 
                     </div>
                     <div className='box-project'>
-                        Some projects I have done throughout my career as a developer.
+                        Some projects I have done throughout my career as a software developer.
                     </div>
                 </Col>
                 <Col xs={{ order: 'last' }} md={2} lg={4}></Col>
@@ -48,7 +48,7 @@ const Projects = () => {
                 </Col>
             </Row>
 
-        </Container>
+        </>
      );
 }
  
