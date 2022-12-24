@@ -87,7 +87,7 @@ i {
   margin-top: 1rem;
   margin-bottom: 6rem;
   border-radius: 100%;
-  filter: brightness(95%);
+  filter: brightness(95%) blur(0.5px);
 }
 
 .email-div {
